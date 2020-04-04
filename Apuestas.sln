@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apuestas.Common", "Apuestas
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apuestas.Web", "Apuestas.Web\Apuestas.Web.csproj", "{826A01BA-791A-4C47-A18F-4BC5E271E772}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apuestas.Prism", "Apuestas.Prism\Apuestas.Prism\Apuestas.Prism.csproj", "{E614AA92-E485-4941-8457-0EC07FB24C3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apuestas.Prism", "Apuestas.Prism\Apuestas.Prism\Apuestas.Prism.csproj", "{E614AA92-E485-4941-8457-0EC07FB24C3F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apuestas.Prism.Android", "Apuestas.Prism\Apuestas.Prism.Android\Apuestas.Prism.Android.csproj", "{503EC86E-1CC5-45E6-A64E-BE25284B2DE2}"
 EndProject
@@ -92,7 +92,6 @@ Global
 		{E614AA92-E485-4941-8457-0EC07FB24C3F}.AppStore|iPhoneSimulator.ActiveCfg = Debug|Any CPU
 		{E614AA92-E485-4941-8457-0EC07FB24C3F}.AppStore|iPhoneSimulator.Build.0 = Debug|Any CPU
 		{E614AA92-E485-4941-8457-0EC07FB24C3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E614AA92-E485-4941-8457-0EC07FB24C3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E614AA92-E485-4941-8457-0EC07FB24C3F}.Debug|iPhone.ActiveCfg = Debug|Any CPU
 		{E614AA92-E485-4941-8457-0EC07FB24C3F}.Debug|iPhone.Build.0 = Debug|Any CPU
 		{E614AA92-E485-4941-8457-0EC07FB24C3F}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
@@ -122,8 +121,6 @@ Global
 		{503EC86E-1CC5-45E6-A64E-BE25284B2DE2}.AppStore|iPhoneSimulator.Build.0 = Release|Any CPU
 		{503EC86E-1CC5-45E6-A64E-BE25284B2DE2}.AppStore|iPhoneSimulator.Deploy.0 = Release|Any CPU
 		{503EC86E-1CC5-45E6-A64E-BE25284B2DE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{503EC86E-1CC5-45E6-A64E-BE25284B2DE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{503EC86E-1CC5-45E6-A64E-BE25284B2DE2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{503EC86E-1CC5-45E6-A64E-BE25284B2DE2}.Debug|iPhone.ActiveCfg = Debug|Any CPU
 		{503EC86E-1CC5-45E6-A64E-BE25284B2DE2}.Debug|iPhone.Build.0 = Debug|Any CPU
 		{503EC86E-1CC5-45E6-A64E-BE25284B2DE2}.Debug|iPhone.Deploy.0 = Debug|Any CPU
