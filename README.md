@@ -1,5 +1,5 @@
 # ApuestasFutbol
-MVVM
+
 this is a self paced tutorial of Juan Carlos Zuluaga
 i will keep track of it to learn about .net , . net core. mvc. mvvm, entity framework and more stuff
 to make run this repo, just follow the next steps:
