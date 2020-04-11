@@ -43,7 +43,7 @@ namespace Apuestas.Web.Controllers
             return View(teamEntity);
         }
 
-       
+        [HttpGet]
         public IActionResult Create()
         {
             return View();
@@ -142,23 +142,9 @@ namespace Apuestas.Web.Controllers
                 return NotFound();
             }
 
-            return View(teamEntity);
-        }
-
-        
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            var teamEntity = await _context.Teams.FindAsync(id);
             _context.Teams.Remove(teamEntity);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
-        }
-
-        private bool TeamEntityExists(int id)
-        {
-            return _context.Teams.Any(e => e.Id == id);
         }
     }
 }
